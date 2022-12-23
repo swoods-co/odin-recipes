@@ -1,0 +1,41 @@
+html {
+    background-color:#0c0c0c;
+    color:#fff;
+}
+body {
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ul {
+    background-color:#202020;
+    width:20%;
+    margin:0 auto;
+    padding:20px 10px;
+    list-style:none;
+    border-top:2px solid orangered;
+    border-bottom:2px solid orangered;
+    border-radius:10px;
+}
+ul li {
+    margin-bottom:10px;
+    padding:5px 10px;
+    transition:all .2s;
+}
+ul li a {
+    color:#fff;
+    text-decoration:none;
+    transform:scale(.95);
+    transition:all .2s;
+}
+ul li:hover {
+    background-color:#fff;
+}
+ul li:hover a {
+    color:#202020;
+    text-decoration:underline;
+    font-weight:bolder;
+    transform:scale(1);
+}
+ul li a:visited {
+    color:orangered;
+}
